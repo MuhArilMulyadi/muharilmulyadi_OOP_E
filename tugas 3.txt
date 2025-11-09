@@ -1,0 +1,17 @@
+# data mahasiswa
+mahasiswa = {
+    "nama": "muh aril mulyadi",
+    "umur": "19",
+    "nim": "242421164",
+    "jurusan": "pendidikan teknologi informasi",
+    "matakuliah": ["Pemograman Berorientasi objek"],
+    "Muh aril mulyadi" : "sedang belajar pemograman berorientasi objek"
+}
+
+print("=== Data Mahasiswa ===")
+print(f"Nama       : {mahasiswa['nama']}")
+print(f"Umur       : {mahasiswa['umur']}")
+print(f"NIM        : {mahasiswa['nim']}")
+print(f"Jurusan    : {mahasiswa['jurusan']}")
+print(f"Mata Kuliah: {mahasiswa['matakuliah']}")
+print(f"Muh aril mulyadi sedang belajar pemograman berorientasi objek")
